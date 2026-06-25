@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Block irrelevant paths
+Disallow: /posts.json
+Disallow: /llms.txt
+
+# Crawl delay for bots
+Crawl-delay: 1
+
+Sitemap: https://mhbuilderlahore.site/sitemap.xml
